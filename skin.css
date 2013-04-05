@@ -1,0 +1,106 @@
+.jcarousel-skin-tango .jcarousel-container {
+    background: #FFF;
+    border: 1px hidden #666;
+	margin:10px 0px 5px 0px;
+	
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 942px;
+    padding: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 942px;
+    height: 450px;
+    padding: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  942px;
+    height: 450px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  942px;
+    height: 450px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 942px;
+    height: 450px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-image: url(imgs/nextW.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	opacity:0.5;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    opacity: 1;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    bottom:15px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-image:url(imgs/previousW.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	opacity:0.5;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    opacity:1;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
